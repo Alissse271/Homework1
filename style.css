@@ -1,0 +1,27 @@
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(143, 255, 152);
+}
+
+form {
+    width: 300px;
+}
+
+input:not([type="checkbox"]) {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input_checkbox {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+}
